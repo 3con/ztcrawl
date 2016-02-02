@@ -124,8 +124,6 @@ vim /root/ztcrawl/supervisord.conf
 ```
 [inet_http_server]
 port = 0.0.0.0:9001
-username = admin
-password = ztol
 
 [program:scrapyd]
 command=scrapyd
